@@ -95,15 +95,6 @@ if (isset($_SESSION["stulogged"]) && $_SESSION["stulogged"] === true) {
               <span>Student Id</span>
               <input type="text" name="rollnum" required />
             </label>
-            <!-- <label>
-              <span>Male</span>
-              <span>Female</span>
-              <input type="radio">
-            </label>
-            <label>
-              <span>Female</span>
-              <input type="radio">
-            </label> -->
             <label>
               <span>Password</span>
               <input type="password" name="pass" required />

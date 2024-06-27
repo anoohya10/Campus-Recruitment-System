@@ -1,16 +1,12 @@
 <?php
-
 session_start();
-
 // checking if user already logged in
 if (!isset($_SESSION["stulogged"]) && $_SESSION["stulogged"] !== true) {
   header("location: login.php");
   exit;
 }
 require_once "../config.php";
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +17,6 @@ require_once "../config.php";
   <title>Student Portal</title>
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="index.css" />
-
   <style>
     * {
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');

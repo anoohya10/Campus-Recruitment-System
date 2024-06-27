@@ -1,20 +1,14 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="contact.css" />
-  <!-- Fontawesome CDN Link -->
-  <!-- <link rel="stylesheet" href="home.css" /> -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us</title>
 
@@ -137,20 +131,20 @@
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="fs-1">Address</div>
-          <div class="text-one">Surkhet, NP12</div>
-          <div class="text-two">Birendranagar 06</div>
+          <div class="text-one">Hyderabad</div>
+          <div class="text-two">Telangana</div>
         </div>
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="fs-1">Phone</div>
-          <div class="text-one">+0098 9893 5647</div>
-          <div class="text-two">+0096 3434 5678</div>
+          <div class="text-one">+91 9849314024</div>
+          <div class="text-two">+91 7013865467</div>
         </div>
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="fs-1">Email</div>
-          <div class="text-one">codinglab@gmail.com</div>
-          <div class="text-two">info.codinglab@gmail.com</div>
+          <div class="text-one">crs@gmail.com</div>
+          <div class="text-two">anoohyamateti10@gmail.com</div>
         </div>
       </div>
 
@@ -225,17 +219,16 @@
             <h6 class="text-uppercase fw-bold text-white">Contact</h6>
             <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
             <p class="text-white">
-              <i class="text-white fas fa-home mr-3"></i> New York, NY 10012,
-              US
+              <i class="text-white fas fa-home mr-3"></i> Hyderabad,Telangana
             </p>
             <p class="text-white">
-              <i class="text-white fas fa-envelope mr-3"></i> info@example.com
+              <i class="text-white fas fa-envelope mr-3"></i> crs@gmail.com
             </p>
             <p class="text-white">
-              <i class="text-white fas fa-phone mr-3"></i> + 01 234 567 88
+              <i class="text-white fas fa-phone mr-3"></i> +91 9849314024
             </p>
             <p class="text-white">
-              <i class="text-white fas fa-print mr-3"></i> + 01 234 567 89
+              <i class="text-white fas fa-print mr-3"></i> +91 7013865467
             </p>
           </div>
           <!-- Grid column -->

@@ -20,7 +20,7 @@ body {
 /* alert */
 .alert {
   padding: 20px;
-  background-color: #358dd5;
+  background-color: #3ccccc;
   color: white;
   opacity: 1;
   transition: opacity 0.6s;

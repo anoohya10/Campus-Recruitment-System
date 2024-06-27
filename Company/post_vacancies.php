@@ -1,5 +1,5 @@
 <?php include_once("includes/_header.php");
-include("includes/test_inputs.php");
+// include("includes/test_inputs.php");
 
 $job_title = $salary = $job_desc = $job_location = $openings_count = $applydate = $lastdate = $error_msg = $success_msg = "";
 

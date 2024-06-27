@@ -51,12 +51,12 @@
             </div>
             <div class="mb-3">
               <label for="student_age" class="form-label">Company Logo</label>
-              <input type="file" class="form-control" name="cmp_logo" required /><br>
+              <input type="file" class="form-control" name="cmp_logo" /><br>
               <img class="rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" src="<?php echo getCmpImage($row['cmp_logo']); ?>" />
             </div>
             <div class="mb-3">
               <label for="cmp_reg_date" class="form-label">Company Registration Date</label>
-              <input type="text" id="cmp_reg_date" class="form-control" name="cmp_reg_date" value="<?php echo $row['cmp_reg_date']; ?>" required placeholder="mm/dd/yyyy" />
+              <input type="text" id="cmp_reg_date" class="form-control" name="cmp_reg_date" value="<?php echo $row['cmp_reg_date']; ?>" placeholder="mm/dd/yyyy" />
             </div>
             <button type="submit" name="update_cmp" class="btn btn-primary">Update</button>
           </form>
